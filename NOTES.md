@@ -19,7 +19,7 @@ taxii-poll \
 --header Authorization:'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoxLCJleHAiOjE2Nzg5MTYyODJ9.UUwdfqNH3ySpYvFTXHGAdW9U1bsLJ781Z90_zC25iZ0'
 ```
 ## Push
-`wget --post-data 'username=test&password=test' http://examples-opentaxii-1:9000/management/auth`
+1. `wget --post-data 'username=test&password=test' http://examples-opentaxii-1:9000/management/auth`
 2. `cat auth`
 3. with the token, in cabby container 
 ```
